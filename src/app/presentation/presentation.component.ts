@@ -13,6 +13,9 @@ export class PresentationComponent {
   skills: String = "";
   cv: String = "";
 
+  textPresentation: String = "¡Hola! Soy Edwin Castillo, un apasionado del desarrollo y la gestión de software.";
+  textSecundari: String = "Actualmente tengo 18 años y mi gran interés es la tecnología. Disfruto aprendiendo constantemente cosas nuevas relacionadas con la programación, y mi principal pasatiempo es la seguridad informática y el desarrollo.";
+
   @ViewChild('menu') menu: ElementRef | undefined;
 
   cambiar(): void {
