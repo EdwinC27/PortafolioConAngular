@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { PorqueContratarmeComponent } from './porque-contratarme/porque-contratarme.component';
+import { MiPasionComponent } from './mi-pasion/mi-pasion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PresentationComponent,
-    PorqueContratarmeComponent
+    PorqueContratarmeComponent,
+    MiPasionComponent
   ],
   imports: [
     BrowserModule,
