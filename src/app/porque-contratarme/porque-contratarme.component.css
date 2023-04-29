@@ -1,0 +1,144 @@
+/* Inicio de Porque contratarme */
+.img_fondo {
+	background-image: url("../../assets/imagenes/ciberseguridad.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+  
+.color_separacion {
+	border-top: .1px solid #2E2E2E;
+}
+
+
+.div-hero {
+    width: 100%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 24%;
+    background-color: #2E2E2E;
+    opacity: .9;
+}
+
+.title {
+	font-size: 2.2rem;
+	margin-bottom: 5px;
+	margin-top: 90px;
+
+}
+
+.parrafos {
+	margin-top: 70px;
+	text-align: justify;
+}
+
+.separar {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	border-top: 5px solid #04B45F;	
+}
+
+.sub_title {
+	font-size: 1.5rem;
+}
+
+.margen_right {
+	margin-right: 45px;
+}
+
+.margen_bottom {
+	margin-bottom: 70px;
+}
+.margen_left {
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 970px) {
+	.div-hero {
+	    width: 100%;
+	    height: 73%;
+	    opacity: 1;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.title {
+		font-size: 2rem;
+		margin-top: 50px;
+	}
+
+	.parrafos {
+		margin-top: 0px;
+		font-size: 1rem;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
+	}
+
+	.sub_title {
+		font-size: 1.5rem;
+		margin-bottom: -35px;
+	}
+
+	.margen_right {
+		margin-right: 10px;
+	}
+
+	.margen_left {
+		margin-left: 10px;
+	}
+
+	.separar {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.hero {
+	    width: 100%;
+	    height: 93%;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	.div-hero {
+	    height: 82%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.title {
+		font-size: 1.7rem;
+		margin-top: 50px;
+	}
+
+	.sub_title {
+		font-size: 1.5rem;
+		margin-bottom: -35px;
+	}
+
+	.margen_right {
+		margin-right: 10px;
+	}
+
+	.margen_left {
+		margin-left: 10px;
+	}
+
+	.separar {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.div-hero {
+	    width: 100%;
+	    height: 111%;
+	    flex-direction: column;
+	    text-align: left;
+	    font-size: 1rem;
+	    background-color: #2E2E2E;
+	    opacity: 1;
+	}
+}
+/* Fin de Porque contratarme */	
