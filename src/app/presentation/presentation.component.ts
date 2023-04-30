@@ -10,7 +10,7 @@ export class PresentationComponent {
   index: String = "/";
   misProyectos: String = "/proyectos";
   cursos: String = "";
-  skills: String = "";
+  skills: String = "skills";
   cv: String = "";
 
   textPresentation: String = "¡Hola! Soy Edwin Castillo, un apasionado del desarrollo y la gestión de software.";

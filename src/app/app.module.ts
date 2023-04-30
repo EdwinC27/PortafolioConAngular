@@ -8,6 +8,7 @@ import { PorqueContratarmeComponent } from './porque-contratarme/porque-contrata
 import { MiPasionComponent } from './mi-pasion/mi-pasion.component';
 import { ProgramacionComponent } from './programacion/programacion.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     PorqueContratarmeComponent,
     MiPasionComponent,
     ProgramacionComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

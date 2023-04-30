@@ -17,7 +17,7 @@ export class ProyectosComponent {
   index: String = "/";
   misProyectos: String = "/proyectos";
   cursos: String = "";
-  skills: String = "";
+  skills: String = "skills";
   cv: String = "";
 
   @ViewChild('menu') menu: ElementRef | undefined;
