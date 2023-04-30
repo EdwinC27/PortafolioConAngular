@@ -11,7 +11,7 @@ export class PresentationComponent {
   misProyectos: String = "/proyectos";
   cursos: String = "";
   skills: String = "skills";
-  cv: String = "";
+  cv: String = "../../assets/cv.pdf";
 
   textPresentation: String = "¡Hola! Soy Edwin Castillo, un apasionado del desarrollo y la gestión de software.";
   textSecundari: String = "Actualmente tengo 18 años y mi gran interés es la tecnología. Disfruto aprendiendo constantemente cosas nuevas relacionadas con la programación, y mi principal pasatiempo es la seguridad informática y el desarrollo.";
