@@ -38,7 +38,6 @@ body {
 .menu_items li a {
 	padding: 7px 13px;
 	text-decoration: none;
-	font-size: 14px;
 	display: block;
 	text-transform: uppercase;
 	color:  #fff;
@@ -74,6 +73,12 @@ body {
 	right: 0px;
 	display: none;
 } 
+
+@media screen and (min-width: 900px) {
+	.menu_items li a {
+		font-size: 18px;
+	}
+}
 
 @media screen and (max-width: 900px) {
 	.menu_two li {
