@@ -148,6 +148,10 @@ export class CertificadosComponent {
       }
     },
     Programacion: {
+      cert0: {
+        img: "../../assets/Certificados/img/programacion/lania.jpg",
+        url: "../../assets/Certificados/pdf/programacion/lania.pdf"
+      },
       cert1: {
         img: "../../assets/Certificados/img/programacion/21,5 horas python.jpg",
         url: "../../assets/Certificados/pdf/programacion/21,5 horas python.pdf"
