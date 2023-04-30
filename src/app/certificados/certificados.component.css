@@ -40,7 +40,7 @@
     text-align: center;
     text-decoration: none;
     transition: all 250ms;
-    font-size: 22px;
+    font-size: 19px;
     margin: 10px 10px 20px;
 }
 
@@ -96,6 +96,10 @@
 		height: 200px;
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+
+	.buttonCursos {
+		font-size: 22px;
 	}
 }
 
