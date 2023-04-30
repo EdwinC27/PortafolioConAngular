@@ -15,9 +15,9 @@ export class ProyectosComponent {
 
   imgLinea: String = "../../assets/imagenes/3-line.png";
   index: String = "/";
-  misProyectos: String = "/proyectos";
-  cursos: String = "cursos";
-  skills: String = "skills";
+  misProyectos: String = "/#/proyectos";
+  cursos: String = "/#/cursos";
+  skills: String = "/#/skills";
   cv: String = "../../assets/cv.pdf";
 
   @ViewChild('menu') menu: ElementRef | undefined;

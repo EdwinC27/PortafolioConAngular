@@ -9,9 +9,9 @@ import { Certificados } from './certificados.model';
 export class CertificadosComponent {
   imgLinea: String = "../../assets/imagenes/3-line.png";
   index: String = "/";
-  misProyectos: String = "/proyectos";
-  cursos: String = "cursos";
-  skills: String = "skills";
+  misProyectos: String = "/#/proyectos";
+  cursos: String = "/#/cursos";
+  skills: String = "/#/skills";
   cv: String = "../../assets/cv.pdf";
   claves: any ;
   showInfo: boolean = false;
