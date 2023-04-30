@@ -7,8 +7,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 })
 export class PresentationComponent {
   imgLinea: String = "../../assets/imagenes/3-line.png";
-  index: String = "";
-  misProyectos: String = "";
+  index: String = "/";
+  misProyectos: String = "/proyectos";
   cursos: String = "";
   skills: String = "";
   cv: String = "";

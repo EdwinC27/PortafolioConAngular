@@ -1,0 +1,38 @@
+<section class="nav wrapper">  <!-- menu -->
+    <nav class="menu">
+        <ul class="menu_items menu_two" #menu>
+            <li><a [href] = "index">Inicio</a></li>
+            <li  class="active"><a [href] = "misProyectos">Proyectos</a></li>
+            <li><a [href] = "cursos">Cursos</a></li>
+            <li><a [href] = "skills">Habilidades</a></li>
+            <li><a target="_blank" [href] = "cv">Hoja de Vida</a></li>
+        </ul>
+    
+        <div class="toggle" (click)="cambiar()"><img [src]="imgLinea"></div>
+    </nav>
+</section>
+    
+
+<section class="presentacion_proyectos"> <!-- Presentacion -->
+    <h1 class="title_proyectos">{{ title }}</h1>
+    <p class="secundario_title_proyectos">{{ sub_title }}</p>
+</section>
+
+
+<section class="grid-conteiner_proyectos"> <!-- Proyectos -->
+    <div>
+        <section *ngFor="let proyecto of proyectos">
+            <h3 class="sub_title_proyectos">{{ proyecto.title }}</h3>
+            <p class="parrafos_proyectos interlineado_proyectos">{{ proyecto.description }}</p>
+            <a [href]="proyecto.url" class="button_proyecto" target="_blank">Ver Proyecto</a>            
+        </section>
+    </div>
+
+    <div>
+        <img [src]="img" class="img_proyectos">
+        
+        <p class="parrafos_proyectos_two parrafos_proyectos interlineado_proyectos">Si deseas ver más, puedes revisar mi GitHub, donde encontrarás una selección completa de mis proyectos de código abierto.</p>
+        <a [href]="github" class="button_proyecto_two" target="_blank">GitHub</a>
+    </div>
+</section>
+
