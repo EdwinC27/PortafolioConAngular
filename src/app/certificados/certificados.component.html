@@ -1,0 +1,42 @@
+<section class="nav wrapper">  <!-- menu -->
+    <nav class="menu">
+        <ul class="menu_items menu_two" #menu>
+            <li><a [href] = "index">Inicio</a></li>
+            <li><a [href] = "misProyectos">Proyectos</a></li>
+            <li class="active"><a [href] = "cursos">Cursos</a></li>
+            <li><a [href] = "skills">Habilidades</a></li>
+            <li><a target="_blank" [href] = "cv">Hoja de Vida</a></li>
+        </ul>
+
+        <div class="toggle" (click)="cambiar()"><img [src]="imgLinea"></div>
+    </nav>
+</section>
+
+
+<section class="presentacion_cursos"> <!-- Presentacion -->
+    <h1 class="title_cursos">Cursos</h1>
+</section>
+
+<section> <!-- cursos -->
+    <div style="text-align: center; padding-left: 10px; padding-right: 10px;"> 
+        <a class="buttonCursos" (click)="certificados(0)">Ciberseguridad</a>
+        
+        <a class="buttonCursos" (click)="certificados(1)">Redes</a> 
+                 
+        <a class="buttonCursos" (click)="certificados(2)">Programación</a>
+    </div> 
+</section>
+
+<section *ngIf="showInfo">
+    <section class="presentacion_cursos"> 
+        <h1 class="title_cursos" style="margin-top: 50px;">{{ tipoTitle }}</h1>
+    </section>
+    
+    <div style="text-align: center;">
+        <ng-container *ngFor="let cert of infoImg; let i = index">
+            <a [href]="infoPdf[i]" target="_blank">
+                <img [src]="cert" class="img_certificados">
+            </a>
+        </ng-container>
+    </div>  
+</section>

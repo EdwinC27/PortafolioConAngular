@@ -9,7 +9,7 @@ export class PresentationComponent {
   imgLinea: String = "../../assets/imagenes/3-line.png";
   index: String = "/";
   misProyectos: String = "/proyectos";
-  cursos: String = "";
+  cursos: String = "cursos";
   skills: String = "skills";
   cv: String = "../../assets/cv.pdf";
 
