@@ -34,7 +34,7 @@ export class ProyectosComponent {
     },
     {
       title: "Tienda de Camisas",
-      description: "Este proyecto tiene como objetivo 'vender' diseños de camisetas relacionados con el mundo de la programación web. Aunque se trata solo de diseños, se ha prestado especial atención a la elección de temas y lenguajes de programación populares como Angular, Node, TypeScript, HTML, entre otros, para asegurarnos de que sean atractivos para nuestro público objetivo.",
+      description: "Este proyecto tiene como objetivo 'vender' diseños de camisetas relacionados con el mundo de la programación web. Aunque se trata solo de diseños, se ha prestado especial atención a la elección de temas y lenguajes de programación populares como Angular, Node, TypeScript, HTML, entre otros.",
       url: "https://venta-camisas.netlify.app/"
     },
     {

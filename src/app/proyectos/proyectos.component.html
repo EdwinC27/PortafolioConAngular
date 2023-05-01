@@ -24,12 +24,12 @@
         <section *ngFor="let proyecto of proyectos">
             <h3 class="sub_title_proyectos">{{ proyecto.title }}</h3>
             <p class="parrafos_proyectos interlineado_proyectos">{{ proyecto.description }}</p>
-            <a [href]="proyecto.url" class="button_proyecto" target="_blank">Ver Proyecto</a> <br>           
+            <a [href]="proyecto.url" class="button_proyecto" target="_blank">Ver Proyecto</a> <br><br>           
         </section>
     </div>
 
     <div>
-        <img [src]="img" class="img_proyectos">
+        <img [src]="img" class="img_proyectos"><br>
         
         <p class="parrafos_proyectos_two parrafos_proyectos interlineado_proyectos">Si deseas ver más, puedes revisar mi GitHub, donde encontrarás una selección completa de mis proyectos de código abierto.</p>
         <a [href]="github" class="button_proyecto_two" target="_blank">GitHub</a>
