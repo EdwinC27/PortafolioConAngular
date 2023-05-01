@@ -73,7 +73,7 @@
 	}	
 
 	.grid-conteiner {
-		margin-top: 10vh;
+		margin-top: 5vh;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
