@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The purpose of this project is to showcase a selection of websites that I have created. The goal is to provide a sample of my skills and experience in web development. In this portfolio, you will be able to see some of the projects I have worked on and find direct links to each of them.
 
 
-If you are interested in learning more about my skills and experience, I invite you to visit the link below, where you will find my portfolio displayed online:   [Here](https://portafolioedwincastillo.netlify.app/#/).
+If you are interested in learning more about my skills and experience, I invite you to visit the link below, where you will find my portfolio displayed online:   [Here](https://edwincastillo.netlify.app/).
 
 There, you will find details about the projects I have worked on, as well as information about the technologies and tools I have used to develop them.
 
